@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Couleurs de base */
+    --background: 35 20% 95%; /* Beige très clair */
+    --foreground: 0 0% 15%; /* Gris très foncé pour le texte */
+    --card: 35 20% 100%; /* Beige clair pour les cartes */
+    --card-foreground: 0 0% 10%; /* Gris foncé pour le texte dans les cartes */
+
+    /* Couleurs principales */
+    --primary: 150 40% 80%; /* Vert clair */
+    --primary-foreground: 0 0% 15%; /* Gris très foncé pour le texte principal */
+
+    --secondary: 150 35% 70%; /* Vert doux */
+    --secondary-foreground: 0 0% 10%; /* Gris très foncé pour le texte secondaire */
+
+    --muted: 35 15% 90%; /* Beige atténué */
+    --muted-foreground: 0 0% 30%; /* Gris pour le texte atténué */
+
+    --accent: 50 70% 70%; /* Jaune doux */
+    --accent-foreground: 0 0% 15%; /* Gris foncé pour le texte d'accent */
+
+    --destructive: 0 70% 65%; /* Rouge doux */
+    --destructive-foreground: 0 0% 100%; /* Blanc pour le texte destructeur */
+
+    --border: 0 0% 75%; /* Gris clair pour les bordures */
+    --input: 35 15% 95%; /* Beige clair pour les champs de saisie */
+    --ring: 0 0% 60%; /* Gris doux pour les anneaux de focus */
+
+    /* Couleurs pour les graphiques */
+    --chart-1: 150 50% 60%; /* Vert clair */
+    --chart-2: 35 30% 80%; /* Beige doux */
+    --chart-3: 50 60% 70%; /* Jaune clair */
+    --chart-4: 280 65% 80%; /* Mauve clair */
+    --chart-5: 340 75% 60%; /* Rose clair */
+
+    /* Arrondis */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Couleurs pour le mode sombre */
+    --background: 35 15% 20%; /* Beige foncé */
+    --foreground: 0 0% 90%; /* Gris clair pour le texte */
+    --card: 35 15% 15%; /* Beige très foncé pour les cartes */
+    --card-foreground: 0 0% 100%; /* Blanc pour le texte dans les cartes */
+
+    --primary: 150 40% 50%; /* Vert clair en mode sombre */
+    --primary-foreground: 0 0% 100%; /* Blanc pour le texte principal */
+
+    --secondary: 150 35% 40%; /* Vert doux en mode sombre */
+    --secondary-foreground: 0 0% 100%; /* Blanc pour le texte secondaire */
+
+    --muted: 35 15% 30%; /* Beige atténué foncé */
+    --muted-foreground: 0 0% 70%; /* Gris pour le texte atténué */
+
+    --accent: 50 70% 50%; /* Jaune plus vif */
+    --accent-foreground: 0 0% 100%; /* Blanc pour le texte d'accent */
+
+    --destructive: 0 70% 50%; /* Rouge plus foncé */
+    --destructive-foreground: 0 0% 100%; /* Blanc pour le texte destructeur */
+
+    --border: 0 0% 40%; /* Gris plus foncé pour les bordures */
+    --input: 35 15% 40%; /* Beige foncé pour les champs de saisie */
+    --ring: 0 0% 80%; /* Gris clair pour les anneaux de focus */
+
+    --chart-1: 150 50% 45%; /* Vert doux pour les graphiques */
+    --chart-2: 35 30% 60%; /* Beige doux pour les graphiques */
+    --chart-3: 50 60% 50%; /* Jaune moyen */
+    --chart-4: 280 65% 60%; /* Mauve moyen */
+    --chart-5: 340 75% 55%; /* Rose moyen */
+  }
+}
